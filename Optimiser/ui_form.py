@@ -33,11 +33,11 @@ class Ui_Widget(object):
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.gridLayout_5 = QGridLayout()
         self.gridLayout_5.setObjectName(u"gridLayout_5")
-        self.lineEdit_10 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_10.setObjectName(u"lineEdit_10")
-        self.lineEdit_10.setMaximumSize(QSize(350, 16777215))
+        self.barUnusableInput = QLineEdit(self.verticalLayoutWidget)
+        self.barUnusableInput.setObjectName(u"barUnusableInput")
+        self.barUnusableInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_5.addWidget(self.lineEdit_10, 4, 1, 1, 1)
+        self.gridLayout_5.addWidget(self.barUnusableInput, 4, 1, 1, 1)
 
         self.label_8 = QLabel(self.verticalLayoutWidget)
         self.label_8.setObjectName(u"label_8")
@@ -54,17 +54,17 @@ class Ui_Widget(object):
 
         self.gridLayout_5.addWidget(self.label_12, 6, 0, 1, 1)
 
-        self.lineEdit_11 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_11.setObjectName(u"lineEdit_11")
-        self.lineEdit_11.setMaximumSize(QSize(350, 16777215))
+        self.lossInput = QLineEdit(self.verticalLayoutWidget)
+        self.lossInput.setObjectName(u"lossInput")
+        self.lossInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_5.addWidget(self.lineEdit_11, 5, 1, 1, 1)
+        self.gridLayout_5.addWidget(self.lossInput, 5, 1, 1, 1)
 
-        self.lineEdit_7 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_7.setObjectName(u"lineEdit_7")
-        self.lineEdit_7.setMaximumSize(QSize(350, 16777215))
+        self.colourInput = QLineEdit(self.verticalLayoutWidget)
+        self.colourInput.setObjectName(u"colourInput")
+        self.colourInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_5.addWidget(self.lineEdit_7, 1, 1, 1, 1)
+        self.gridLayout_5.addWidget(self.colourInput, 1, 1, 1, 1)
 
         self.line = QFrame(self.verticalLayoutWidget)
         self.line.setObjectName(u"line")
@@ -78,11 +78,11 @@ class Ui_Widget(object):
 
         self.gridLayout_5.addWidget(self.label_7, 1, 0, 1, 1)
 
-        self.lineEdit_8 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_8.setObjectName(u"lineEdit_8")
-        self.lineEdit_8.setMaximumSize(QSize(350, 16777215))
+        self.cuttingEndPrepInput = QLineEdit(self.verticalLayoutWidget)
+        self.cuttingEndPrepInput.setObjectName(u"cuttingEndPrepInput")
+        self.cuttingEndPrepInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_5.addWidget(self.lineEdit_8, 2, 1, 1, 1)
+        self.gridLayout_5.addWidget(self.cuttingEndPrepInput, 2, 1, 1, 1)
 
         self.line_2 = QFrame(self.verticalLayoutWidget)
         self.line_2.setObjectName(u"line_2")
@@ -96,34 +96,34 @@ class Ui_Widget(object):
 
         self.gridLayout_5.addWidget(self.label_10, 4, 0, 1, 1)
 
-        self.lineEdit_9 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_9.setObjectName(u"lineEdit_9")
-        self.lineEdit_9.setMaximumSize(QSize(350, 16777215))
+        self.BarSizeInput = QLineEdit(self.verticalLayoutWidget)
+        self.BarSizeInput.setObjectName(u"BarSizeInput")
+        self.BarSizeInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_5.addWidget(self.lineEdit_9, 3, 1, 1, 1)
+        self.gridLayout_5.addWidget(self.BarSizeInput, 3, 1, 1, 1)
 
         self.label_6 = QLabel(self.verticalLayoutWidget)
         self.label_6.setObjectName(u"label_6")
 
         self.gridLayout_5.addWidget(self.label_6, 0, 0, 1, 1)
 
-        self.lineEdit_12 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_12.setObjectName(u"lineEdit_12")
-        self.lineEdit_12.setMaximumSize(QSize(350, 16777215))
+        self.messageInput = QLineEdit(self.verticalLayoutWidget)
+        self.messageInput.setObjectName(u"messageInput")
+        self.messageInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_5.addWidget(self.lineEdit_12, 6, 1, 1, 1)
+        self.gridLayout_5.addWidget(self.messageInput, 6, 1, 1, 1)
 
         self.label_11 = QLabel(self.verticalLayoutWidget)
         self.label_11.setObjectName(u"label_11")
 
         self.gridLayout_5.addWidget(self.label_11, 5, 0, 1, 1)
 
-        self.lineEdit_6 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_6.setObjectName(u"lineEdit_6")
-        self.lineEdit_6.setMinimumSize(QSize(350, 0))
-        self.lineEdit_6.setMaximumSize(QSize(350, 16777215))
+        self.PartDescInput = QLineEdit(self.verticalLayoutWidget)
+        self.PartDescInput.setObjectName(u"PartDescInput")
+        self.PartDescInput.setMinimumSize(QSize(350, 0))
+        self.PartDescInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_5.addWidget(self.lineEdit_6, 0, 1, 1, 1)
+        self.gridLayout_5.addWidget(self.PartDescInput, 0, 1, 1, 1)
 
         self.verticalSpacer = QSpacerItem(0, 0, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
 
@@ -161,22 +161,22 @@ class Ui_Widget(object):
 
         self.gridLayout_4.addLayout(self.verticalLayout_9, 1, 1, 1, 1)
 
-        self.tableWidget = QTableWidget(self.verticalLayoutWidget)
-        if (self.tableWidget.columnCount() < 3):
-            self.tableWidget.setColumnCount(3)
+        self.itemsTable = QTableWidget(self.verticalLayoutWidget)
+        if (self.itemsTable.columnCount() < 3):
+            self.itemsTable.setColumnCount(3)
         __qtablewidgetitem = QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(0, __qtablewidgetitem)
+        self.itemsTable.setHorizontalHeaderItem(0, __qtablewidgetitem)
         __qtablewidgetitem1 = QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(1, __qtablewidgetitem1)
+        self.itemsTable.setHorizontalHeaderItem(1, __qtablewidgetitem1)
         __qtablewidgetitem2 = QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(2, __qtablewidgetitem2)
-        if (self.tableWidget.rowCount() < 1):
-            self.tableWidget.setRowCount(1)
-        self.tableWidget.setObjectName(u"tableWidget")
-        self.tableWidget.setMinimumSize(QSize(475, 0))
-        self.tableWidget.setMaximumSize(QSize(475, 16777215))
+        self.itemsTable.setHorizontalHeaderItem(2, __qtablewidgetitem2)
+        if (self.itemsTable.rowCount() < 1):
+            self.itemsTable.setRowCount(1)
+        self.itemsTable.setObjectName(u"itemsTable")
+        self.itemsTable.setMinimumSize(QSize(475, 0))
+        self.itemsTable.setMaximumSize(QSize(475, 16777215))
 
-        self.gridLayout_4.addWidget(self.tableWidget, 1, 0, 1, 1)
+        self.gridLayout_4.addWidget(self.itemsTable, 1, 0, 1, 1)
 
         self.label_13 = QLabel(self.verticalLayoutWidget)
         self.label_13.setObjectName(u"label_13")
@@ -198,29 +198,29 @@ class Ui_Widget(object):
 
         self.gridLayout_3.addWidget(self.label, 0, 0, 1, 1)
 
-        self.lineEdit_5 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_5.setObjectName(u"lineEdit_5")
-        self.lineEdit_5.setMaximumSize(QSize(350, 16777215))
+        self.reqDateInput = QLineEdit(self.verticalLayoutWidget)
+        self.reqDateInput.setObjectName(u"reqDateInput")
+        self.reqDateInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_3.addWidget(self.lineEdit_5, 4, 1, 1, 1)
+        self.gridLayout_3.addWidget(self.reqDateInput, 4, 1, 1, 1)
 
-        self.lineEdit_4 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_4.setObjectName(u"lineEdit_4")
-        self.lineEdit_4.setMaximumSize(QSize(350, 16777215))
+        self.operatorNameInput = QLineEdit(self.verticalLayoutWidget)
+        self.operatorNameInput.setObjectName(u"operatorNameInput")
+        self.operatorNameInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_3.addWidget(self.lineEdit_4, 3, 1, 1, 1)
+        self.gridLayout_3.addWidget(self.operatorNameInput, 3, 1, 1, 1)
 
         self.label_3 = QLabel(self.verticalLayoutWidget)
         self.label_3.setObjectName(u"label_3")
 
         self.gridLayout_3.addWidget(self.label_3, 2, 0, 1, 1)
 
-        self.lineEdit = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit.setObjectName(u"lineEdit")
-        self.lineEdit.setMinimumSize(QSize(350, 0))
-        self.lineEdit.setMaximumSize(QSize(350, 16777215))
+        self.invoiceNumInput = QLineEdit(self.verticalLayoutWidget)
+        self.invoiceNumInput.setObjectName(u"invoiceNumInput")
+        self.invoiceNumInput.setMinimumSize(QSize(350, 0))
+        self.invoiceNumInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_3.addWidget(self.lineEdit, 0, 1, 1, 1)
+        self.gridLayout_3.addWidget(self.invoiceNumInput, 0, 1, 1, 1)
 
         self.label_5 = QLabel(self.verticalLayoutWidget)
         self.label_5.setObjectName(u"label_5")
@@ -237,17 +237,17 @@ class Ui_Widget(object):
 
         self.gridLayout_3.addWidget(self.label_2, 1, 0, 1, 1)
 
-        self.lineEdit_2 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_2.setObjectName(u"lineEdit_2")
-        self.lineEdit_2.setMaximumSize(QSize(350, 16777215))
+        self.custNameInput = QLineEdit(self.verticalLayoutWidget)
+        self.custNameInput.setObjectName(u"custNameInput")
+        self.custNameInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_3.addWidget(self.lineEdit_2, 1, 1, 1, 1)
+        self.gridLayout_3.addWidget(self.custNameInput, 1, 1, 1, 1)
 
-        self.lineEdit_3 = QLineEdit(self.verticalLayoutWidget)
-        self.lineEdit_3.setObjectName(u"lineEdit_3")
-        self.lineEdit_3.setMaximumSize(QSize(350, 16777215))
+        self.jobNameInput = QLineEdit(self.verticalLayoutWidget)
+        self.jobNameInput.setObjectName(u"jobNameInput")
+        self.jobNameInput.setMaximumSize(QSize(350, 16777215))
 
-        self.gridLayout_3.addWidget(self.lineEdit_3, 2, 1, 1, 1)
+        self.gridLayout_3.addWidget(self.jobNameInput, 2, 1, 1, 1)
 
         self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
 
@@ -275,20 +275,23 @@ class Ui_Widget(object):
 
     def retranslateUi(self, Widget):
         Widget.setWindowTitle(QCoreApplication.translate("Widget", u"Widget", None))
+        self.barUnusableInput.setText(QCoreApplication.translate("Widget", u"50", None))
         self.label_8.setText(QCoreApplication.translate("Widget", u"Cutting end prep: ", None))
         self.label_9.setText(QCoreApplication.translate("Widget", u"Bar size in mm: ", None))
         self.label_12.setText(QCoreApplication.translate("Widget", u"Message", None))
+        self.lossInput.setText(QCoreApplication.translate("Widget", u"5", None))
         self.label_7.setText(QCoreApplication.translate("Widget", u"Colour/Finish: ", None))
         self.label_10.setText(QCoreApplication.translate("Widget", u"mm of bar unusable: ", None))
+        self.BarSizeInput.setText(QCoreApplication.translate("Widget", u"6400", None))
         self.label_6.setText(QCoreApplication.translate("Widget", u"Part Description: ", None))
         self.label_11.setText(QCoreApplication.translate("Widget", u"mm loss per cut: ", None))
         self.AddRowButton.setText(QCoreApplication.translate("Widget", u"Add row", None))
         self.RemoveRowButton.setText(QCoreApplication.translate("Widget", u"Remove row", None))
-        ___qtablewidgetitem = self.tableWidget.horizontalHeaderItem(0)
+        ___qtablewidgetitem = self.itemsTable.horizontalHeaderItem(0)
         ___qtablewidgetitem.setText(QCoreApplication.translate("Widget", u"Quantity", None));
-        ___qtablewidgetitem1 = self.tableWidget.horizontalHeaderItem(1)
-        ___qtablewidgetitem1.setText(QCoreApplication.translate("Widget", u"Size", None));
-        ___qtablewidgetitem2 = self.tableWidget.horizontalHeaderItem(2)
+        ___qtablewidgetitem1 = self.itemsTable.horizontalHeaderItem(1)
+        ___qtablewidgetitem1.setText(QCoreApplication.translate("Widget", u"Size (mm)", None));
+        ___qtablewidgetitem2 = self.itemsTable.horizontalHeaderItem(2)
         ___qtablewidgetitem2.setText(QCoreApplication.translate("Widget", u"Reference text", None));
         self.label_13.setText(QCoreApplication.translate("Widget", u"Items needed:", None))
         self.label.setText(QCoreApplication.translate("Widget", u"Job/Invoice number: ", None))
