@@ -264,9 +264,9 @@ class Ui_Widget(object):
         self.SubmitButton = QPushButton(Widget)
         self.SubmitButton.setObjectName(u"SubmitButton")
         self.SubmitButton.setGeometry(QRect(610, 600, 100, 29))
-        self.pushButton = QPushButton(Widget)
-        self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(610, 550, 100, 29))
+        self.loadButton = QPushButton(Widget)
+        self.loadButton.setObjectName(u"loadButton")
+        self.loadButton.setGeometry(QRect(610, 550, 100, 29))
 
         self.retranslateUi(Widget)
 
@@ -300,6 +300,6 @@ class Ui_Widget(object):
         self.label_4.setText(QCoreApplication.translate("Widget", u"Operators name: ", None))
         self.label_2.setText(QCoreApplication.translate("Widget", u"Customers name: ", None))
         self.SubmitButton.setText(QCoreApplication.translate("Widget", u"Submit", None))
-        self.pushButton.setText(QCoreApplication.translate("Widget", u"Load from file", None))
+        self.loadButton.setText(QCoreApplication.translate("Widget", u"Load from file", None))
     # retranslateUi
 
